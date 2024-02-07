@@ -1,6 +1,6 @@
 # microservice-voting-app
 
-To run the application run the following commands:
+### To run the application run the following commands:
 
 1. Create Deployments:
 
@@ -26,4 +26,11 @@ kubectl create -f result-app-service.yml
 ```
 minikube service voting-service --url
 minikube service result-service --url
+```
+
+### Or simply run the following sripts to create deployments and services:
+
+```
+./create-deployments.sh 
+./create-services.sh 
 ```
