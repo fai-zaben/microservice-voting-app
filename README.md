@@ -5,11 +5,11 @@ To run the application run the following commands:
 1. Create Deployments:
 
 ```
-kubectl create -f voting-app-dep.yml
-kubectl create -f result-app-dep.yml
-kubectl create -f redis-dep.yml
-kubectl create -f postgres-dep.yml
-kubectl create -f worker-dep.yml
+kubectl create -f voting-app-deployment.yml
+kubectl create -f result-app-deployment.yml
+kubectl create -f redis-deployment.yml
+kubectl create -f postgres-ddeploymentep.yml
+kubectl create -f worker-deployment.yml
 ```
 
 2. Create Services:

@@ -19,6 +19,6 @@ spec:
         app: microservice-voting-app
     spec:
       containers:
-        - name: worker-app
-          image: kodekloud/examplevotingapp_worker:v1
+      - name: worker-app
+        image: kodekloud/examplevotingapp_worker:v2
           
