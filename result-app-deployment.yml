@@ -6,7 +6,7 @@ metadata:
     name: result-app-deployment
     app: microservice-voting-app
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       name: result-app-pod
