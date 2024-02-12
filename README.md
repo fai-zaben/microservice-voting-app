@@ -1,4 +1,6 @@
-# microservice-voting-app
+# microservice-voting-app Architecture
+
+![Voting App Arhitecture](./VotingAppArch.jpg)
 
 ### To run the application run the following commands:
 
